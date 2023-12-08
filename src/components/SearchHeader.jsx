@@ -9,7 +9,7 @@ import SearchHeaderOptions from "./SearchHeaderOptions";
 export default function SearchHeader() {
   return (
     <header className="sticky top-0 bg-white">
-      <div className="flex w-full p-6 items-center justify-between flex-col">
+      <div className="flex w-full p-6 items-center justify-between">
           <Link href={"/"}>
             <Image
               src="https://www.google.co.in/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
@@ -26,7 +26,7 @@ export default function SearchHeader() {
           <RiSettings3Line className="header-icon" />
           <TbGridDots className="header-icon" />
         </div>
-        <button className="bg-blue-500 text-white px-4 py-2 mt-2 font-medium rounded-md hover:brightness-105 hover:shadow-md transition-all ml-2 md:ml-0">
+        <button className="bg-blue-500 text-white px-6 py-2 font-medium rounded-md hover:brightness-105 hover:shadow-md taransition-all ml-2 ">
           Sign in
         </button>
       </div>
