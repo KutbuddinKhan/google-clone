@@ -16,7 +16,7 @@ export default function HomeSearch() {
 
     if (!input.trim()) return;
 
-    router.push(`/search/web?searchQuery=${input}`);
+    router.push(`/search/web?searchTerm=${input}`);
   };
 
   const randomSearch = async () => {
@@ -27,7 +27,7 @@ export default function HomeSearch() {
 
     if (!response) return;
 
-    router.push(`/search/web?searchQuery=${response}`);
+    router.push(`/search/web?searchTerm=${response}`);
     setRandomSearchLoading(false);
   };
 
